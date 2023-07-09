@@ -1,0 +1,53 @@
+{
+    "Results": [
+      {
+        "title": "Instalación de NGINX en Arch Linux",
+        "description": "Documentación oficial que cubre muchos detalles importantes para instalar NGINX",
+        "url": "https://wiki.archlinux.org/title/nginx",
+        "icon": "nf nf-dev-nginx"
+      },
+      {
+        "title": "Instalación de ArchCraft",
+        "description": "Distribución de Linux basada en Arch de fácil instalación y configuración, ideal si quieres probar Arch.",
+        "url": "https://archcraft.io/",
+        "icon": "nf nf-md-arch"
+      },
+      {
+        "title": "TMUX",
+        "description": "Multiplexor de terminal para sistemas tipo UNIX.",
+        "url": "https://github.com/tmux/tmux/wiki",
+        "icon": "nf nf-cod-terminal_tmux"
+      },
+      {
+        "title": "NvChad",
+        "description": "Con una filosofía bastante minimalista, NvChad es un framework para Neovim, ofreciendo configuraciones y temas para mejorar el desarrollo usando este editor.",
+        "url": "https://nvchad.com/",
+        "icon": "nf nf-custom-vim"
+      },
+      {
+        "title": "Powerlevel10k",
+        "description": "Tema para zsh, un potente intérprete de terminal, bastante sencillo de instalar y con configuraciones elegantes.",
+        "url": "https://github.com/romkatv/powerlevel10k",
+        "icon": "nf nf-dev-terminal"
+      },
+      {
+        "title": "ZSH",
+        "description": "Guía para instalar zsh, un potente intérprete de terminal que tiene plugins que son de mucha utilidad.",
+        "url": "https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH",
+        "icon": "nf nf-cod-terminal_bash"
+      },
+      {
+        "title": "Alacritty",
+        "description": "Sin duda para mi, el mejor emulador de terminal para cualquier sistema operativo. Está potenciado por GPU y la velocidad es simplemente maravillosa.",
+        "url": "https://alacritty.org/",
+        "icon": "nf nf-cod-terminal_cmd"
+      },
+      {
+        "title": "OpenBox",
+        "description": "Gestor de ventanas bastante ligero y fácil de configurar.",
+        "url": "http://openbox.org/wiki/Main_Page",
+        "icon": "nf nf-md-dock_window"
+      }
+    ]
+  }
+  

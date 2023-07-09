@@ -1,0 +1,139 @@
+@import url('https://www.nerdfonts.com/assets/css/webfont.css');
+
+body {
+  background-color: #36393f;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #4a36fd, #1b7fea);
+  padding: 10px 20px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.circle-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  color: rgb(41, 214, 245);
+}
+
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.typing-effect {
+  display: inline-block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 21ch;
+
+  animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+p img {
+  margin-right: 5px;
+}
+
+.languages-icons {
+  display: flex;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    height: auto;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .heading-container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .languages-icons {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .circle-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

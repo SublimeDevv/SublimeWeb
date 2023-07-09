@@ -1,0 +1,41 @@
+{
+    "projects": [
+      {
+        "title": "GoScript",
+        "description": "Bot de moderación para el servidor de Godeik Team.",
+        "languages": ["JavaScript", "TypeScript"],
+        "tools": ["Nodejs", "MongoDB", "git"],
+        "image": "https://cdn.discordapp.com/attachments/510895555321266188/903653255521923152/1633969775531.png",
+        "icon": "nf nf-md-discord",
+        "color": "#ff9018"
+      },
+      {
+        "title": "Jojoestar",
+        "description": "Bot multifuncional para servidores hispanos en Discord.",
+        "languages": ["JavaScript", "TypeScript"],
+        "tools": ["Nodejs", "MongoDB", "git"],
+        "image": "https://cdn.discordapp.com/avatars/700461704043036772/20628cc02156eae83d4f74a097e96a29.png?size=2048",
+        "icon": "nf nf-md-discord",
+        "color": "#459ef7"
+      },
+      {
+        "title": "Poke Sublime",
+        "description": "Buscador de Pokémones usando JavaScript vanilla.",
+        "languages": ["JavaScript", "HTML5", "CSS3"],
+        "tools": ["git"],
+        "image": "https://raw.githubusercontent.com/SublimeDevv/Poke-Sublime/main/src/Images/pikachu.png",
+        "icon": "nf nf-md-pokeball",
+        "color": "#fff200"
+      },
+      {
+        "title": "UTuri",
+        "description": "Proyecto final ecommerce para la universidad.",
+        "languages": ["JavaScript", "HTML5", "CSS3"],
+        "tools": ["Nodejs", "MySQL", "git", "React"],
+        "image": "https://cdn.discordapp.com/attachments/828729969236115523/1127347997873819699/1688851128741.png",
+        "icon": "nf nf-oct-project_template",
+        "color": "#5761f7"
+      }
+    ]
+  }
+  

@@ -1,0 +1,133 @@
+@import url("https://www.nerdfonts.com/assets/css/webfont.css");
+
+.body {
+  background-color: #36393f;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #4a36fd, #1b7fea);
+  padding: 10px 20px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  border: 1px solid #6e7681;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.circleImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  word-break: break-word;
+}
+
+.headingContainer h1,
+.headingContainer h2 {
+  margin: 0;
+}
+
+.headingContainer h1 {
+  color: rgb(255, 144, 24);
+}
+
+.headingContainer h2, h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.headingContainer p img {
+  margin-right: 5px;
+}
+
+.languagesIcons {
+  display: flex;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    height: auto;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headingContainer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .circleImage {
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.border-github-dark {
+  border: 1px solid #30363d;
+  border-radius: 6px;
+}

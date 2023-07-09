@@ -1,0 +1,49 @@
+{
+    "tools": [
+      {
+        "Nodejs": "https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white"
+      },
+      {
+        "Arch": "https://img.shields.io/badge/-Arch%20Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white"
+      },
+      {
+        "React": "https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white"
+      },
+      {
+        "git": "https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white"
+      },
+      {
+        "webpack": "https://img.shields.io/badge/-Webpack-DD6F9?style=flat-square&logo=webpack&logoColor=white"
+      },
+      {
+        "MySQL": "https://img.shields.io/badge/-MySQL-2088FF?style=flat-square&logo=mysql&logoColor=white"
+      },
+      {
+        "SQL Server": "https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"
+      },
+      {
+        "MongoDB": "https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white"
+      }
+    ],
+    "languages": [
+      {
+        "JavaScript": "nf nf-dev-javascript_badge"
+      },
+      {
+        "TypeScript": "nf nf-md-language_typescript"
+      },
+      {
+        "HTML5": "nf nf nf-dev-html5"
+      },
+      {
+        "CSS3": "nf nf-dev-css3"
+      },
+      {
+        "Database": "nf nf-md-database"
+      },
+      {
+        "Java": "nf nf-dev-java"
+      }
+    ]
+  }
+  
