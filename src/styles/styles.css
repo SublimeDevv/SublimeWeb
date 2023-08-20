@@ -77,21 +77,23 @@ h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #ffffff;
   margin-bottom: 10px;
-}
+} 
 
 .typing-effect {
   display: inline-block;
   white-space: nowrap;
   border-right: 4px solid;
   width: 16ch;
-
   animation: typing 2s steps(16), blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }
 
 @keyframes typing {
-  from {
+  0% {
     width: 0;
+  }
+  100% {
+    width: 16ch;
   }
 }
 
