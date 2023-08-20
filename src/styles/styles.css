@@ -84,7 +84,8 @@ h2 {
   white-space: nowrap;
   border-right: 4px solid;
   width: 16ch;
-  animation: typing 2s steps(16), blink 0.5s infinite step-end alternate;
+  max-width: 100%;
+  animation: typing 2s steps(16) forwards, blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }
 
