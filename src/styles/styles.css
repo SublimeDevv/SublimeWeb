@@ -21,6 +21,9 @@ nav {
   margin: 0 10px;
   text-decoration: none;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
   background-image: linear-gradient(to right, #4a36fd, #1b7fea);
   padding: 10px 20px;
@@ -79,7 +82,7 @@ h2 {
   display: inline-block;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 21ch;
+  width: 16ch;
 
   animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
   overflow: hidden;

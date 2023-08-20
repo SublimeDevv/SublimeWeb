@@ -14,7 +14,7 @@ export default function Header() {
             Proyectos
           </Link>
           <Link to={"/MyConfig"}className="button">
-            Mi configuración
+            Entorno GNU/Linux
           </Link>
         </nav>
       </header>

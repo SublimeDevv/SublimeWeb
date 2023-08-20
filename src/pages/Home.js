@@ -16,7 +16,7 @@ export default function Home() {
           />
           <div className="heading-container">
             <h1 className="typing-effect">
-              <i className="nf nf-md-hand_wave"> </i>¡Hola! Soy Sublime_Const
+              <i className="nf nf-md-hand_wave"> </i>Soy Sublime_Const
             </h1>
             <p>
               <img
