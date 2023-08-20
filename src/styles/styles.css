@@ -70,7 +70,7 @@ h2 {
 
 h1 {
   color: rgb(41, 214, 245);
-  font-size: 27px;
+  font-size: 1.6875em;
 }
 
 h2 {
@@ -80,29 +80,30 @@ h2 {
 } 
 
 .typing-effect {
-  display: inline-block;
+  font-size: 26px;
+  font-family: Arial, sans-serif;
   white-space: nowrap;
-  border-right: 4px solid;
-  width: 16ch;
-  max-width: 100%;
-  animation: typing 2s steps(16) forwards, blink 0.5s infinite step-end alternate;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   overflow: hidden;
 }
 
-@keyframes typing {
-  0% {
-    width: 0;
+.typing-cursor {
+  display: inline-block;
+  width: 3px;
+  height: 24px;
+  background-color: rgb(41, 214, 245);
+  animation: blinkCursor 0.7s infinite;
+}
+
+@keyframes blinkCursor {
+  0%, 100% {
+    opacity: 0;
   }
-  100% {
-    width: 16ch;
+  50% {
+    opacity: 1;
   }
 }
 
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
 
 p img {
   margin-right: 5px;

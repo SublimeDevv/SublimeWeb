@@ -1,9 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState} from 'react';
 import Header from '../components/Header';
 import '../styles/styles.css';
 import icons from '../utils/icons.json';
 
 export default function Home() {
+  const text = "¡Hola, soy Sublime_Const!";
+  const typingSpeed = 100; 
+
+  const [displayText, setDisplayText] = useState("");
+  const [charIndex, setCharIndex] = useState(0);
+
+  useEffect(() => {
+    const typingTimer = setInterval(() => {
+      if (charIndex < text.length) {
+        setDisplayText((prevDisplayText) => prevDisplayText + text.charAt(charIndex));
+        setCharIndex((prevCharIndex) => prevCharIndex + 1);
+      } else {
+        clearInterval(typingTimer);
+      }
+    }, typingSpeed);
+
+    return () => {
+      clearInterval(typingTimer);
+    };
+  }, [charIndex]);
   return (
     <>
       <Header />
@@ -16,7 +36,8 @@ export default function Home() {
           />
           <div className="heading-container">
             <h1 className="typing-effect">
-              <i className="nf nf-md-hand_wave"> </i>Soy Sublime_Const
+              <i className="nf nf-md-hand_wave"> </i>{displayText}
+              <span className="typing-cursor"></span>
             </h1>
             <p>
               <img
