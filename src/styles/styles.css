@@ -70,6 +70,7 @@ h2 {
 
 h1 {
   color: rgb(41, 214, 245);
+  font-size: 27px;
 }
 
 h2 {
@@ -84,7 +85,7 @@ h2 {
   border-right: 4px solid;
   width: 16ch;
 
-  animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
+  animation: typing 2s steps(16), blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }
 
