@@ -4,7 +4,7 @@ import '../styles/styles.css';
 import icons from '../utils/icons.json';
 
 export default function Home() {
-  const text = "¡Hola, soy Sublime_Const!";
+  const text = "Soy Sublime_Const";
   const typingSpeed = 100; 
 
   const [displayText, setDisplayText] = useState("");
